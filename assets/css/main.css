@@ -209,7 +209,7 @@ h6 {
   margin: auto;
   width: 1px;
   height: 280px;
-  transition: all 0.8s ease 0s;
+  transition: all 0.2s ease 0s;
 }
 
 #preloader .line:before {
@@ -319,14 +319,14 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: 997;
   padding: 30px 0;
   background-color: blue;
 }
 
 .header .logo {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .header .logo img {
@@ -337,9 +337,9 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
-  font-weight: 400;
+  font-weight: 2500;
   color: #fff;
   font-family: var(--font-secondary);
 }
@@ -352,7 +352,7 @@ h6 {
 
 @media (max-width: 575px) {
   .header .logo h1 {
-    font-size: 26px;
+    font-size: 25px;
   }
 
   .header .logo i {
@@ -1331,9 +1331,9 @@ h6 {
 }
 
 .footer .credits a {
-  color: white;
-  font-size: 15px;
-  font-weight: 300px;
+  color: black;
+  font-size: 12px;
+  font-weight: 280px;
   
 }
 
